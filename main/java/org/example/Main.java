@@ -25,7 +25,7 @@ public class Main {
     private final DestinationProcessor destinationProcessor;
 //    private RedisTemplateBuilder redisTemplateBuilder;
     private JedisStorage jedisStorage;
-    private static final long POLLING_INTERVAL = 10*60*1000; // 10m
+    private static final long POLLING_INTERVAL = 10*60*1000; //10m
     private long pivotTimestamp;
     private static final int KAFKA_TPS = 512;
     private static final int REDIS_TIMEOUT = 30000;

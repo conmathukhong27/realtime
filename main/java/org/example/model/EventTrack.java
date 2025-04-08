@@ -14,4 +14,5 @@ public class EventTrack {
     private String sourceEvent;
     private String product;
     private String partitionMonth;
+    private int notificationCount;// Số lần thông báo đã gửi
 }
